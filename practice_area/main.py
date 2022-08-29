@@ -40,40 +40,21 @@
 n = int(input("Enter a number: ").strip())
 
 
-if n % 2 == 0 and n < 5 or n > 20:
-    print("Not weird")
-else:
-    print("weird")
-
-
 # if n % 2 != 0:
-#     print('weird')
-# else:
-#     if n >= 2 and n <= 5:
-#         print("Not weird")
-#     elif n >= 6 and n <= 20:
-#         print("weird")
-#     else:
-#         print("Not weird")
+#     print("weird")
+# elif n % 2 == 0 and n in range(2, 5):
+#     print("Not weird")
+# elif n % 2 == 0 and n in range(6, 20):
+#     print("weird")
+# elif n % 2 == 0 and n > 20:
+#     print("Not weird")
 
-# def is_leap(yr):
-#     leap = False
-#
-#     # Write your logic here
-#     if yr % 4 == 0 and yr % 100 == 0 and yr % 400 == 0:
-#         leap = True
-#         return leap
-#     elif yr % 4 == 0 and (yr % 100) != 0:
-#         leap = True
-#         return leap
-#     return leap
-#
-#
-# year = int(input())
-# print(is_leap(year))
-
-# n = int(input())
-# for n in range(1, n + 1):
-#     print(n, end='')
-
-
+if n % 2 != 0:
+    print('weird')
+else:
+    if n >= 2 and n <= 5:
+        print("Not weird")
+    elif n >= 6 and n <= 20:
+        print("weird")
+    else:
+        print("Not weird")
