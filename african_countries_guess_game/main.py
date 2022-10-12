@@ -15,7 +15,7 @@ countries = ["Algeria", "Angola", "Benin", "Botswana", "Burkina Faso", "Burundi"
 x = []
 y = []
 
-# answer = screen.textinput(title="Guess The Turtle", prompt="Enter the country to be guessed:")
+answer = screen.textinput(title="Guess The Turtle", prompt="Enter the country to be guessed:")
 
 
 def get_coordinates(x_cor, y_cor):
