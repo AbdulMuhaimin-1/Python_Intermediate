@@ -8,7 +8,6 @@ def miles_to_km():
 
 window = Tk()
 window.title("Mile to Km Converter")
-window.minsize(height=100, width=200)
 window.config(padx=30, pady=30)
 
 # Miles Textbox
