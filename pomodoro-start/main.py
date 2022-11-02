@@ -61,6 +61,8 @@ def count_down(count):
             marks += "✓"
         check_mark_label.config(text=marks)
 # ---------------------------- UI SETUP ------------------------------- #
+
+
 window = Tk()
 window.title("Pomodoro")
 window.config(padx=100, pady=50, bg=YELLOW)
