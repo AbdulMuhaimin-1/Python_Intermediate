@@ -102,18 +102,21 @@ web_entry = Entry(width=20)
 web_entry.grid(column=1, row=1, sticky='WE')
 web_entry.focus()
 email_username_entry = Entry(width=40)
-email_username_entry.grid(column=1, row=2, columnspan=2, sticky='WE')
 email_username_entry.insert(0, 'yussif.muhaimin4@gmail.com')
+email_username_entry.grid(column=1, row=2, columnspan=2, sticky='WE')
 password_entry = Entry(width=21)
 password_entry.grid(column=1, row=3, sticky='WE')
 
 # Buttons
 search_button = Button(text='Search', width=15, command=find_password)
-search_button.grid(row=1, column=2)
+search_button.grid(row=1, column=2, sticky='w')
 generate_password_button = Button(text="Generate Password", command=generate_password)
-generate_password_button.grid(row=3, column=2, sticky='W')
+generate_password_button.grid(row=3, column=2)
 add_button = Button(text="Add", width=37, command=save)
-add_button.grid(column=1, row=4, columnspan=2, sticky='WE')
+add_button.grid(column=1, row=4, columnspan=2)
+
+
+window.resizable(width=False, height=False)
 
 
 window.mainloop()
