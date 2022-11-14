@@ -21,8 +21,8 @@ window.configure(background=BACKGROUND_COLOR, padx=50, pady=50)
 canvas = Canvas(width=800, height=526, background=BACKGROUND_COLOR, highlightthickness=0)
 my_image = PhotoImage(file="images/card_front.png")
 canvas.create_image(405, 270, image=my_image)
-card_title = canvas.create_text(400, 150, text="", font=("Arial", 40, "italic"))
-dialect_text = canvas.create_text(400, 263, text='', font=("Arial", 60, "bold"))
+card_title = canvas.create_text(400, 150, font=("Arial", 40, "italic"))
+dialect_text = canvas.create_text(400, 263, font=("Arial", 60, "bold"))
 canvas.grid(column=0, row=0, columnspan=2)
 
 
