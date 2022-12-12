@@ -8,7 +8,7 @@ password = 'mgcffmmwdpjpszgh'
 current_date_and_time = dt.datetime.now()
 current_day = current_date_and_time.weekday()
 
-if current_day == 2:
+if current_day == 6:
     with open('quotes.txt', 'r') as data:
         quotes_list = data.readlines()
         quote_to_send = random.choice(quotes_list)
