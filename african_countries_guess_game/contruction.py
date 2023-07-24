@@ -1,3 +1,4 @@
+import turtle
 import pandas
 
 countries = ["Algeria", "Angola", "Benin", "Botswana", "Burkina Faso", "Cabo Verde", "Cameroon",
@@ -23,6 +24,6 @@ countries_df = pandas.DataFrame(countries_dict)
 countries_df.to_csv("country_coord.csv")
 
 
-# def get_coordinates(x_cor, y_cor):
-#     print(f"X = {x_cor}, Y = {y_cor}")
-# turtle.onscreenclick(get_coordinates)
+def get_coordinates(x_cor, y_cor):
+    print(f"X = {x_cor}, Y = {y_cor}")
+turtle.onscreenclick(get_coordinates)
